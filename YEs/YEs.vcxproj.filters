@@ -18,11 +18,9 @@
     <ClInclude Include="Libraries.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="secret.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="index.cpp">
@@ -31,5 +29,15 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Note.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="YEs.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

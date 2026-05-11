@@ -60,5 +60,7 @@ int main() {
 
 	cout << "Thank you for trying my program..." << endl;
 
+	Sleep(SM(5));
+
 	return 0;
 }
