@@ -124,16 +124,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Libraries.h" />
-    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="YEs.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="bitmap1.bmp" />
+    <Image Include="secret.bmp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="index.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Note.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

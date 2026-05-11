@@ -1,0 +1,5 @@
+My First Project!
+
+This project is a command-based script that will output
+your username, and give you a little greeting. Nothing much else
+to it.
